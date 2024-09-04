@@ -109,7 +109,7 @@
 }
 
 #about_me_section2 img {
-    min-width: 100px;
+    min-width: 150px;
     width: 25vw;
     height: auto;
     max-width: 750px;
@@ -298,6 +298,11 @@
     }
     to {
         opacity: 1;
+    }
+}
+@media only screen and (max-width: 993px) {
+    #second_section {
+        height: 1500px;
     }
 }
 
